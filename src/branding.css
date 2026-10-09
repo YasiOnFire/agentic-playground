@@ -1,0 +1,12 @@
+@font-face{font-family:'Workshop Mono';font-style:normal;font-weight:700;font-display:block;src:url('/fonts/Consolasligaturizedv2-Bold.ttf') format('truetype')}
+:root{color:var(--paper);--accentLight:#a886ff}
+.event-title{font-family:'Workshop Mono',Consolas,monospace;font-weight:700;letter-spacing:-.035em;color:var(--paper)}
+.event-emphasis{color:var(--accent);font-weight:700;text-shadow:0 0 3px #5918df50}
+.event-prompt{font-family:'Workshop Mono',Consolas,monospace;font-weight:700;color:var(--accent);margin-right:.15em;font-size:.88em;text-shadow:0 0 8px #5918df45}
+.frame-top{align-items:center}
+.byline{color:var(--paper);letter-spacing:0}
+.eyebrow,.phase-index .active,.prompt,.repair,.loading{color:var(--accentLight)}
+.reveal-event{font-size:2.8cqw;line-height:1.2;font-weight:700}
+.reveal-event .event-title{text-shadow:0 0 3px #eeeaf640}
+.reveal-event .event-emphasis{text-shadow:0 0 3px #5918df50}
+.reveal-coordinate{font-size:.95cqw;letter-spacing:.06em;color:var(--paper)}
